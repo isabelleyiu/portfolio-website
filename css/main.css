@@ -17,6 +17,20 @@
 }
 
 #name {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 100px;
     text-align: center;
     color: white;
+
+}
+
+#description {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+
+}
+
+article {
+    font-family: 'Roboto', sans-serif;
 }
