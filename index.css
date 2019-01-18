@@ -1,6 +1,19 @@
-body {
-    background: url(https://images.unsplash.com/photo-1527234639945-70d78416bd7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1319&q=80);
+.icon-wrap img {
+    height: 40px;
+}
+
+#hero {
+    height: 100vh;
+    min-height: 100vh;
+    margin-top: -70px;
+    background: url(https://images.unsplash.com/photo-1527234639945-70d78416bd7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1319&q=80) fixed;
     background-size: cover;
+    padding: 5% 0 0;
+}
+
+#about {
+    background-color: #eee;
+    padding: 5% 0 0;
 }
 
 #name {
