@@ -1,5 +1,10 @@
 .icon-wrap img {
     height: 40px;
+    margin-left: 10px;
+}
+
+article  {
+    font-family: 'Roboto', sans-serif;
 }
 
 #hero {
@@ -11,17 +16,12 @@
     padding: 5% 0 0;
 }
 
-#about {
-    background-color: #eee;
-    padding: 5% 0 0;
-}
-
 #name {
     font-family: 'Petit Formal Script', cursive;
     font-size: 100px;
     text-align: center;
     color: white;
-
+    padding: 5% 0 0 ;
 }
 
 #description {
@@ -31,6 +31,24 @@
 
 }
 
-article {
-    font-family: 'Roboto', sans-serif;
+#about {
+    background-color: #eee;
+    padding: 50px;  
+}
+
+#profilePic {
+    height: 50vh;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border: 10px solid white;
+}
+
+#projects {
+    padding: 50px; 
+}
+
+#recs {
+    background-color: #eee;
+    padding: 50px; 
 }
