@@ -1,7 +1,7 @@
 
 .icon-wrap img {
     height: 40px;
-    margin-left: 15px;
+    margin-right: 15px;
     padding-top: 10px;
 }
 
@@ -15,22 +15,25 @@ article  {
     margin-top: -70px;
     background: url(https://images.unsplash.com/photo-1527234639945-70d78416bd7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1319&q=80) fixed;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     padding: 5% 0 0;
 }
 
 #name {
     font-family: 'Petit Formal Script', cursive;
-    font-size: 100px;
     text-align: center;
     color: white;
     padding: 5% 0 0 ;
+    position: relative;
+    top: 50px;
 }
 
 #description {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+    position: relative;
+    top: 50px;
 }
 
 #about {
@@ -46,24 +49,49 @@ article  {
     border: 10px solid white;
 }
 
-#projects {
+#technical {
     padding: 50px; 
 }
 
-#recs {
-    background-color: #eee;
+#projects {
     padding: 50px; 
+    background-color: #eee;
+}
+
+#testimony {
+    padding: 50px; 
+}
+
+#contact {
+    padding: 50px; 
+    background-color: #eee;
 }
 
 @media all and (max-width: 991px) {
+    /* drop down background */
     nav.navbar.navbar-expand-lg.navbar-dark {
         background-color: #846a5a;
 
     }
-
-    ul.navbar-nav.ml-auto {
+    /* social icon in drop down */
+    /* ul.navbar-nav.ml-auto {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-    }
+    } */
+
+    
 }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
