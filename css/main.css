@@ -1,3 +1,6 @@
+body  {
+    font-family: 'Roboto', sans-serif;
+}
 
 .icon-wrap img {
     height: 40px;
@@ -5,8 +8,16 @@
     padding-top: 10px;
 }
 
-body  {
-    font-family: 'Roboto', sans-serif;
+button.navbar-toggler {
+    outline: none;
+}
+
+#override a.nav-link {
+    color: white;
+}
+
+#override a.nav-link:hover {
+    color: #CC7D7B;
 }
 
 #hero {
@@ -58,7 +69,7 @@ body  {
     background-color: #eee;
 }
 
-#testimony {
+#testimonial {
     padding: 50px; 
 }
 
@@ -67,21 +78,6 @@ body  {
     background-color: #eee;
 }
 
-@media all and (max-width: 991px) {
-    /* drop down background */
-    nav.navbar.navbar-expand-lg.navbar-dark {
-        background-color: #846a5a;
-
-    }
-    /* social icon in drop down */
-    /* ul.navbar-nav.ml-auto {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    } */
-
-    
-}
 /* Small devices  */
 @media (max-width: 767px) { 
    #name {
@@ -91,7 +87,6 @@ body  {
    #description {
        font-size: 15px;
    }
-
 }
 
 /* Medium devices */
