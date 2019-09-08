@@ -105,7 +105,8 @@ li i {
 
 /* Resume */
 #resume {
-	margin: auto 10%;
+	border: 1px solid red;
+	margin: 5% 10%;
 }
 
 .icon-wrap img {
