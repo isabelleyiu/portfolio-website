@@ -103,6 +103,11 @@ li i {
     text-align: center;
 }
 
+/* Resume */
+#resume {
+	margin: auto 10%;
+}
+
 .icon-wrap img {
     height: 40px;
     margin-right: 15px;
