@@ -3,17 +3,12 @@ body  {
     font-family: 'Roboto', sans-serif;
 }
 
-
 section:not(#hero):nth-child(odd) {
     background-color: #f5f5f5
 }
 
 section:not(#hero){
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    margin-bottom: 30px;
-    padding: 50px;
+    padding: 5% 0;
 }
 
 section:not(#hero) h3 {
@@ -24,6 +19,7 @@ section:not(#hero) h3 {
 
 ul {
     list-style: none;
+    padding: 0 0;
 }
 
 button.navbar-toggler {
@@ -43,10 +39,10 @@ button.navbar-toggler {
     height: 100vh;
     min-height: 100vh;
     margin-top: -70px;
-		background: url(https://images.unsplash.com/photo-1527234639945-70d78416bd7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1319&q=80) fixed;
+    background: url(https://images.unsplash.com/photo-1527234639945-70d78416bd7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1319&q=80) fixed;
     background-size: cover;
     background-position: center top;
-    padding: 5% 0 0;
+    padding: 5% 0;
 }
 
 #name {
@@ -92,7 +88,7 @@ button.navbar-toggler {
     text-align: center;
 }
 
-.grid li i {
+li i {
     color:#CC7D7B;
 }
 
@@ -101,12 +97,6 @@ button.navbar-toggler {
   text-decoration: underline;
 }
 
-
-
-/* Resume */
-#resume {
-     
-}
 
 /* Contact Me */
 #contact {
@@ -121,7 +111,7 @@ button.navbar-toggler {
 
 .gif {
 	width: 800px;
-	margin: 2% 0;
+	margin: 2% auto;
 }
 
 /* Small devices  */
@@ -135,18 +125,19 @@ button.navbar-toggler {
   #description {
     font-size: 15px;
 	}
-	#technical ul{
-    display: flex;
+	#profilePic {
+		margin: 5% 5%;
+	}
+  #technical ul{
+		display: flex;
 		flex-direction: column;
 	}
 	.align-column-center {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
-		align-content: space-between;
 	}
 	.small-width {
-		width: 250px;
+		width: 350px;
 	}
 	.small-margin {
 		margin: 2% 2%;
@@ -161,3 +152,6 @@ button.navbar-toggler {
 }
 
 /* utilities */
+.center-text {
+	text-align: center;
+}
