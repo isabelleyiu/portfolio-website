@@ -94,7 +94,7 @@ li i {
 
 /* Projects */
 #projects h5{
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 
@@ -121,21 +121,24 @@ li i {
 
 /* Small devices  */
 @media (max-width: 767px) { 
-  body {
+	body {
 		font-size: 0.75rem;
-  }
-  #name {
-    font-size: 40px;
-  }
-  #description {
-    font-size: 15px;
 	}
-	#profilePic {
+	#name {
+		font-size: 40px;
+	}
+	#description {
+		font-size: 15px;
+	}
+  #profilePic {
 		margin: 5% 5%;
-	}
+  }
   #technical ul{
-		display: flex;
+		display: flex;	
 		flex-direction: column;
+	}
+	#resume {
+		display: none
 	}
 	.align-column-center {
 		display: flex;
