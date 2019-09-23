@@ -130,10 +130,10 @@ li i {
 	#description {
 		font-size: 15px;
 	}
-  #profilePic {
-		margin: 5% 5%;
-  }
-  #technical ul{
+    #profilePic {
+            margin: 5% 5%;
+    }
+    #technical ul{
 		display: flex;	
 		flex-direction: column;
 	}
