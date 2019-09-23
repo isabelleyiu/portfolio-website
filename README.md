@@ -1,5 +1,4 @@
 # My Personal Website
-This is my personal website. 
 Please visit https://isabelle-yiu.com
 
 - Build with:
