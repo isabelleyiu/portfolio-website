@@ -1,6 +1,6 @@
-# My Personal Website - Development in Process
+# My Personal Website
 This is my personal website. 
-Please visit https://isabelleyiu.github.io/portfolio-website/
+Please visit https://isabelle-yiu.com
 
 - Build with:
     - HTML5
